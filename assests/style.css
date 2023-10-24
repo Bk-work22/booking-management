@@ -1,0 +1,14 @@
+#perMonthSchedule .single + .single {
+    border-left: 1px solid #dee2e6;
+}
+@media screen and (max-width: 992px) {
+    #perMonthSchedule .single:nth-child(odd) {
+        border-left: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #perMonthSchedule .single {
+        border-left: none !important;
+    }
+}
